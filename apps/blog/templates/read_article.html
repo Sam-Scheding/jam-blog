@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>Title: {{ article.title }}</p><br>
+    <p>Content: {{ article.content }}</p><br>
+    <p>Author: {{ article.author }}</p><br>
+    <p>Publish Date: {{ article.date }}</p><br>
+    <p>Tags:
+      {% for tag in article.tags.all %}
+        {{ tag }},
+      {% endfor %}
+    </p><br>
+  </body>
+</html>
