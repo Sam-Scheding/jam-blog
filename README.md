@@ -9,5 +9,6 @@ To start the project locally:
 - $ python3 -m venv env
 - $ source env/bin/activate
 - $ pip install -r requirements.txt
+- $ python manage.py m
 - $ python manage.py runserver
 - Visit the server on: http://127.0.0.1:8000/
