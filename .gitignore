@@ -13,3 +13,7 @@ media/**
 **/migrations/**
 !**/migrations
 !**/migrations/__init__.py
+
+!**/jam/settings/dep.py
+
+env/**
