@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var weak_key__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! weak-key */ \"./node_modules/weak-key/index.js\");\n/* harmony import */ var weak_key__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(weak_key__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _HomepageStyled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HomepageStyled */ \"./apps/main/src/components/HomePage/HomepageStyled.js\");\n\n\n\n\nvar Homepage = function Homepage() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomepageStyled__WEBPACK_IMPORTED_MODULE_2__[\"TitleStyled\"], null, \"This Shit is Bananas\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Homepage);\n\n//# sourceURL=webpack:///./apps/main/src/components/HomePage/Homepage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var weak_key__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! weak-key */ \"./node_modules/weak-key/index.js\");\n/* harmony import */ var weak_key__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(weak_key__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Nav_nav_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Nav/nav.js */ \"./apps/main/src/components/Nav/nav.js\");\n/* harmony import */ var _HomepageStyled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HomepageStyled */ \"./apps/main/src/components/HomePage/HomepageStyled.js\");\n\n\n\n\n\nvar Homepage = function Homepage() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav_nav_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomepageStyled__WEBPACK_IMPORTED_MODULE_3__[\"TitleStyled\"], null, \"This Shit is Bananas\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Homepage);\n\n//# sourceURL=webpack:///./apps/main/src/components/HomePage/Homepage.js?");
 
 /***/ }),
 
@@ -119,6 +119,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"TitleStyled\", function() { return TitleStyled; });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n  font-size: 1.5em;\\n  text-align: center;\\n  color: palevioletred;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar TitleStyled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].h1(_templateObject());\n\n//# sourceURL=webpack:///./apps/main/src/components/HomePage/HomepageStyled.js?");
+
+/***/ }),
+
+/***/ "./apps/main/src/components/Nav/nav.js":
+/*!*********************************************!*\
+  !*** ./apps/main/src/components/Nav/nav.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Nav = function Nav() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/\"\n  }, \"Home\"), \" |\", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/\"\n  }, \"Blog\"), \" |\", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/\"\n  }, \"API\"), \" |\", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/\"\n  }, \"API Docs\"), \" |\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Nav);\n\n//# sourceURL=webpack:///./apps/main/src/components/Nav/nav.js?");
 
 /***/ }),
 

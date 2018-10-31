@@ -21,6 +21,10 @@
     {% endblock %}
 
     {% load static %}
-    <script src="{% static "main/main.js" %}"></script>
+    <script src="{% static "main/main.js" %}">
+    let blogURL = "{% url 'blog:home' %}";
+    let apiURL = "{% url 'api:api-root' %}";
+    let docsURL = "{% url 'api-docs:docs-index' %}";
+    </script>
   </body>
 </html>

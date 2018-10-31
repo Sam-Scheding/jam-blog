@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development ./apps/main/src/index.js --output ./apps/main/static/main/main.js",
+    "watch": "npm run dev -- --watch",
     "build": "webpack --mode production ./apps/main/src/index.js --output ./frontend/static/main/main.js"
   },
   "repository": {
