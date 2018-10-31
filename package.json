@@ -1,0 +1,38 @@
+{
+  "name": "jam-blog",
+  "version": "1.0.0",
+  "description": "A simple blogging site written in Python, Django, and ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./apps/main/src/index.js --output ./apps/main/static/main/main.js",
+    "build": "webpack --mode production ./apps/main/src/index.js --output ./frontend/static/main/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jheepark/jam-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jheepark/jam-blog/issues"
+  },
+  "homepage": "https://github.com/jheepark/jam-blog#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "styled-components": "^4.0.3"
+  }
+}

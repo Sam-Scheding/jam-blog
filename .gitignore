@@ -17,3 +17,5 @@ media/**
 !**/jam/settings/dep.py
 
 env/**
+package-lock.json
+node_modules
