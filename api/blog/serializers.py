@@ -1,6 +1,6 @@
 import pickle
 from rest_framework import serializers
-from apps.blog.models import Article, Tag
+from api.blog.models import Article, Tag
 
 
 

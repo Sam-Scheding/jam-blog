@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development ./apps/main/src/index.js --output ./apps/main/static/main/main.js",
+    "dev": "webpack --mode development ./client/src/index.js --output ./client/static/main.js",
     "watch": "npm run dev -- --watch",
-    "build": "webpack --mode production ./apps/main/src/index.js --output ./frontend/static/main/main.js"
+    "build": "webpack --mode production ./client/src/index.js --output ./client/static/main.js"
   },
   "repository": {
     "type": "git",

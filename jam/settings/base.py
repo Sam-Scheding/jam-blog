@@ -28,9 +28,8 @@ SECRET_KEY = 'mbv-$a^z@1-*5_7hm+4&yeu(5%*33pszwxkd-y*9ergq2o4t@z'
 
 # Application definition
 INSTALLED_APPS = [
-    'apps.main',
     'apps.custom',
-    'apps.blog',
+    'apps.front_end',
     'api.blog',
     'rest_framework',
     'coreapi',
@@ -59,8 +58,9 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
           'templates/',
-          os.path.join('apps', 'events', 'templates'),
-
+              # 'client/src',
+              'apps/front_end/src',
+              'apps/accounts/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {

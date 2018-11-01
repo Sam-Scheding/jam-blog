@@ -18,9 +18,10 @@ from django.urls import path, include
 from rest_framework.documentation import include_docs_urls
 
 urlpatterns = [
-    path('', include('apps.main.urls')),
     path('admin/', admin.site.urls),
+    path('', include('apps.front_end.urls')),
     path('api/', include('api.urls')),
     path('api/docs/', include_docs_urls(title='Jam API')),
-    path('blog/', include('apps.blog.urls', namespace='blog')),
+    path('accounts/', include('apps.accounts.urls', namespace='accounts')),
+
 ]

@@ -27,11 +27,11 @@ INSTALLED_APPS += [
     'django_extensions',
 ]
 
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    ("img", "/static/img"),
-    ("js", "/static/js"),
-    ("css", "/static/css"),
+    os.path.join(BASE_DIR, '..', 'client', "static"),
+    os.path.join(BASE_DIR, '..', 'apps', 'front_end', 'static'),  # I think this should work? Lemme know if it doesn't
 ]
 
 MEDIA_URL = 'media/'
