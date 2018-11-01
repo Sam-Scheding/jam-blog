@@ -4,6 +4,7 @@ export const ListStyled = styled.li`
   width: auto;
   padding: 20px;
   a {
+    font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     color: #9297b4;
