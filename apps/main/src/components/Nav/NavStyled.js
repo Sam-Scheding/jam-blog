@@ -7,7 +7,7 @@ export const ListStyled = styled.li`
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: #9297b4;
+    color: white;
     :hover, :active {
       color: #ef4b6c;
     }
