@@ -2,41 +2,34 @@ import styled from 'styled-components';
 
 export const TitleStyled = styled.h1`
   font-family: 'Fjalla One', sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: left;
-  color: white;
+  color: black;
   margin: 0;
   display: inline-block;
   span {
-    color: #ef4b6c;
+    color: #00d2ff;
   }
 `;
 
 export const ContentStyled = styled.div`
-  vertical-align: top;
-  width: 40%;
-  margin: 0 5% 0 0;
+  width: 50%;
+  margin: 40px 0 0;
   display: inline-block;
 
   p {
     letter-spacing: 1.1px;
     line-height: 1.5;
     font-family: 'Noto Sans', sans-serif;
-    color: white;
+    color: black;
   }
 `;
 
 export const PageStyled = styled.div`
-  background: linear-gradient(0, #FC466B 0%, #3F5EFB 100%)
+  background-image: url("https://images.pexels.com/photos/872958/pexels-photo-872958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
 `;
 
-export const ImgStyled = styled.div`
-  width: 55%
-  display: inline-block;
-  img {
-    width: 100%;
-  }
-`;
 
 export const ContainerStyled = styled.div`
   padding: 0 40px;
