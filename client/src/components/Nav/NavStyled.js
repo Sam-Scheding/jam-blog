@@ -7,9 +7,9 @@ export const ListStyled = styled.li`
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: black;
     :hover, :active {
-      color: #ef4b6c;
+      color: #3a47d5;
     }
   }
 `;
@@ -17,7 +17,7 @@ export const ListStyled = styled.li`
 export const UlStyled = styled.ul`
   display: flex;
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 40px 0;
   padding: 0;
   justify-content: flex-end;
 `;
